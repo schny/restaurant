@@ -2,6 +2,7 @@
       body {
         font-family: Arial;
         background: black;
+        color: white;
       }
       #topnav {
 
@@ -9,6 +10,11 @@
   overflow: hidden;
   position: fixed;
   transition: 0.4s;
+  z-index: 5;
+}
+
+ul {
+  list-style-type: none;
 }
 
       #topnav a {
@@ -29,10 +35,12 @@
   padding: 30px 0px 30px 0px;
   /* margin: -8px; */
   width: 100%;
+  margin-top: -15px;
 }
 
 .nav-top a:visited {
   color: white;
+  
 }
 
 .nav-scrolled {
@@ -44,7 +52,7 @@
   padding-bottom: 20px; */
   /* margin: -8px; */
   width: 100%;
-
+  margin-top: -15px;
 }
 
 .nav-scrolled a:visited {
@@ -82,3 +90,16 @@ span #logo {
   opacity: 1;
 }
 
+#images {
+  height: 100vh;
+}
+
+#container div {
+
+  display: block;
+}
+
+#bio {
+  z-index: 5;
+  height: 200vh;
+}
