@@ -90,16 +90,31 @@ span #logo {
   opacity: 1;
 }
 
-#images {
+.cb-slideshow {
   height: 100vh;
 }
 
 #container div {
 
-  display: block;
+  /* display: block; */
 }
 
-#bio {
+.content {
   z-index: 5;
-  height: 200vh;
+  
+}
+
+.contact-info {
+  background: rgb(53, 53, 53);
+  z-index: 10;
+}
+
+
+#fixed-bg {
+  background-image: url("../src/background-food.jpg");
+  min-height: 370px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
