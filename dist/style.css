@@ -1,0 +1,84 @@
+
+      body {
+        font-family: Arial;
+        background: black;
+      }
+      #topnav {
+
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  transition: 0.4s;
+}
+
+      #topnav a {
+        float: right;
+        
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 13px;
+        
+        font-weight: bold;
+      }
+
+
+.nav-top {
+  color: white;
+  background: transparent;
+  padding: 30px 0px 30px 0px;
+  /* margin: -8px; */
+  width: 100%;
+}
+
+.nav-top a:visited {
+  color: white;
+}
+
+.nav-scrolled {
+  color: rgb(59, 59, 59);
+  background-color: rgb(245, 245, 245);
+  padding: 20px 0px 15px 0px;
+  /* padding: 10px 10px 10px 10px;  */
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  /* margin: -8px; */
+  width: 100%;
+
+}
+
+.nav-scrolled a:visited {
+  color:rgb(59, 59, 59);
+}
+
+span #logo {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+#logo::after {
+  content: "";
+  background: url("https://media.istockphoto.com/vectors/restaurant-logo-isolated-on-white-background-restaurant-menu-logo-vector-id1147574099?s=612x612");
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;   
+  background-size: cover;
+}
+
+.logo-top::after {
+  width: 200px;
+  height: 110px;
+  opacity: 0.5;
+}
+
+.logo-scrolled::after {
+  padding: 30px 0px 0px 20px;
+  width: 130px;
+  height: 70px;
+  opacity: 1;
+}
+
