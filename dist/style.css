@@ -107,8 +107,40 @@ span #logo {
 .contact-info {
   background: rgb(53, 53, 53);
   z-index: 10;
+  padding: 30px;
+  min-height: 230px;
 }
 
+#created-by {
+  background: rgb(32, 32, 32);
+  z-index: 10;
+  min-height: 50px;
+  color:rgb(160, 160, 160)
+ 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 35%;
+  padding: 10px;
+  height: 300px;
+}
+
+#left {
+  margin-left: 25%;
+}
+
+.logo-small {
+  width: 150px;
+  height: 75px;
+  border-radius: 50%;
+}
 
 #fixed-bg {
   background-image: url("../src/background-food.jpg");
@@ -117,4 +149,5 @@ span #logo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
