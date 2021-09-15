@@ -99,9 +99,16 @@ span #logo {
   /* display: block; */
 }
 
-.content {
+.content-1 {
   z-index: 5;
+  min-height: 400px;
   
+}
+
+.content-2 {
+  z-index: 5;
+  min-height: 400px;
+  padding-top: 15px;
 }
 
 .contact-info {
@@ -129,12 +136,14 @@ span #logo {
   float: left;
   width: 35%;
   padding: 10px;
-  height: 300px;
+  /* height: 300px; */
 }
 
-#left {
-  margin-left: 25%;
+.left {
+  margin-left: 15%;
+  margin-right: 5%;
 }
+
 
 .logo-small {
   width: 150px;
@@ -151,4 +160,39 @@ span #logo {
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+
+.restaurant-pic {
+  width: 400px;
+  height: 350px;
+}
+
+.restaurant-pic-2 {
+  width: 300px;
+  height: 350px;
+}
+
+h2 {
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 0;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid white;
+  padding: 20px;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+#created-by {
+  text-align: center;
 }
